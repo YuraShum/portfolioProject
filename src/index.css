@@ -5,9 +5,107 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(63, 63, 63);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Logo */
+
+.contend{
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #000000ec;
+  border-radius: 20px;
+
+}
+
+.info__image{
+  background: url(./images/forest.jpg);
+  min-height: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+.info__title{
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.info__text{
+  text-align: center;
+  margin: 0;
+  color: rgb(176, 131, 72);
+}
+
+
+.info > span{
+  color: aliceblue;
+  opacity: 0.8;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.info__buttom{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+.info__buttom > button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+
+}
+
+.info__buttom__color{
+  background-color: rgb(0, 128, 255);
+  color: aliceblue;
+}
+
+/* About and Interesting*/
+
+.content__text{
+  padding: 10px 50px;
+}
+
+.content__text > h2{
+  color: aliceblue;
+}
+.content__text > p{
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+/*Footer*/
+
+.footer__img{
+  background-color: black;
+  display: flex;
+  padding: 20px 50px;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+.footer__img > img{
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+
+
