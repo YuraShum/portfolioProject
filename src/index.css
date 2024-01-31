@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/**Contend*/
+.content{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+}
+
+/** Nav*/
+.nav{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 72, 72);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 50px;
+
+}
+
+.nav p{
+  padding-left: 10px;
+  color: rgb(14, 17, 80);
+}
+
+
+/** Style Card*/
+.card{
+  display: flex;
+  padding: 0px 50px;
+  border: solid 2px rgb(157, 156, 156);
+  border-radius: 12px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.card--img img{
+  margin-top: 15px;
+  object-fit: cover;
+  width: 250px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.card--info{
+  padding-left: 30px;
+  margin-bottom: 10px;
+  
+}
+
+.card__info--card{
+  display: flex;
+  align-items: center;
+
+}
+.card__info--card p{
+  margin-left: 5px;
+  text-transform:uppercase;
+  letter-spacing: 0.35em;
+  font-weight:700;
+}
+.card__info--card a{
+  margin-left: 15px;
+  color: rgb(98, 98, 98);
+}
+
+.card__info--text h2{
+  font-size: 36px;
+  
+}
+.card__info--date{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
